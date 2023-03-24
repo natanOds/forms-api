@@ -6,9 +6,9 @@ import java.io.Serial;
 import java.io.Serializable;
 
 public class UserDTO implements Serializable {
-
     @Serial
     private static final long serialVersionUID = -3653711201346416517L;
+
     private String id;
     private String name;
     private String email;
